@@ -1,0 +1,28 @@
+{
+    "name": "natours",
+    "version": "1.0.0",
+    "description": "learning node,express and mongodb",
+    "main": "app.js",
+    "scripts": {
+        "start:dev": "nodemon server.js",
+        "start:prod": "NODE_ENV=production nodemon server.js",
+        "debug": "ndb server.js"
+    },
+    "author": "Jeevan",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^14.2.0",
+        "express": "^4.17.2",
+        "mongoose": "^5.13.14",
+        "morgan": "^1.10.0",
+        "slugify": "^1.6.5",
+        "ttf2woff2": "^4.0.4"
+    },
+    "devDependencies": {
+        "ndb": "^1.1.5",
+        "nodemon": "^2.0.15"
+    },
+    "engines": {
+        "node": ">=10.0.0"
+    }
+}
